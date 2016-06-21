@@ -5,7 +5,7 @@
 	"homepage": "http://evoluteur.github.io/structured-filter/",
 	"main": [
 		"js/structured-filter.js",
-		"less/structured-filter.less"
+		"scss/structured-filter.scss"
 	],
 	"license": "MIT",
 	"dependencies": {

@@ -109,7 +109,7 @@ $.widget( 'evol.structFilter', {
 		// - editor button new
 		this._bNew=e.find('.evo-bNew').button({
 				text: bLabels,
-				icons: {secondary:'ui-icon-plusthick'}
+				icons: {secondary:'fa fa-plus'}
 			}).on('click', function(e){
 				if(that._step<1){
 					that._setEditorField();
@@ -120,7 +120,7 @@ $.widget( 'evol.structFilter', {
 		// - editor button add
 		this._bAdd=e.find('.evo-bAdd').button({
 				text: bLabels,
-				icons: {secondary:'ui-icon-check'}
+				icons: {secondary:'fa fa-check'}
 			}).on('click', function(evt){
 				var data=that._getEditorData();
 				if(that._cFilter){
@@ -133,7 +133,7 @@ $.widget( 'evol.structFilter', {
 		// - editor button cancel
 		this._bDel=e.find('.evo-bDel').button({
 				text: bLabels,
-				icons: {secondary:'ui-icon-close'}
+				icons: {secondary:'fa fa-times'}
 			}).on('click', function(evt){
 				that._removeEditor();
 			});
@@ -237,7 +237,7 @@ $.widget( 'evol.structFilter', {
 		var f=$('<a href="javascript:void(0)">'+this._htmlFilter(filter)+'</a>')
 			.prependTo(this._filters)
 			.button({
-				icons: {secondary:'ui-icon-close'}
+				icons: {secondary:'fa fa-times'}
 			})
 			.data('filter', filter)
 			.fadeIn();
