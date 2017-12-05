@@ -39,11 +39,11 @@
 		//opOr:'or',
 		yes:'Yes',
 		no:'No',
-		bNewCond:'New filter condition',
-		bAddCond:'Add condition',
-		bUpdateCond:'Update condition',
-		bSubmit:'Submit',
-		bCancel:'Cancel'
+		bNewCond:'',
+		bAddCond:'',
+		bUpdateCond:'',
+		bSubmit:'',
+		bCancel:''
 	},
 	evoAPI={
 		sEqual:'eq',
